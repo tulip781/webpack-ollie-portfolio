@@ -1,0 +1,21 @@
+h1 {
+  font-family: Proto Grotesk;
+  font-weight: 300;
+}
+
+
+img {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+}
+
+
+.land {
+  opacity: 0%;
+  transition: opacity 2s;
+  transition-timing-function: ease;
+}
+
+.land.reveal {
+  opacity: 100%;
+}

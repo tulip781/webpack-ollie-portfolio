@@ -12,6 +12,7 @@
   transform: translate(-50%, -50%) ;
   z-index: 2;
   transition: opacity 1s;
+  transition-timing-function: ease;
 
 }
 
