@@ -10,7 +10,8 @@ body {
   margin: 0;
   background-size: cover;
   background-color: #ebe2da;
-  font-family: Proto Grotesk;
-  font-weight: lighter;
+  font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 

@@ -1,6 +1,8 @@
-h1 {
-  font-family: Proto Grotesk;
-  font-weight: 200px !important;
+.oli, .ing {
+font-family: neue-haas-grotesk-text,sans-serif;
+font-weight: lighter;
+font-style: normal;
+font-size: 160px;
 }
 
 
@@ -19,4 +21,8 @@ img {
 
 .land.reveal {
   opacity: 100%;
+}
+
+.a {
+  padding: 0px;
 }
