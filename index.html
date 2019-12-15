@@ -20,29 +20,38 @@
 
       <!-- landing page -->
       <div class='land'>
-        <div class="container d-flex align-items-center">
-          <div class="row">
+        <div class="container d-flex align-items-center justify-content-center">
 
-            <div class="col-md-12 col-lg-5">
-              <div class='title m-3'>
-                <h1 class='oli p-0'>Oliver</h1>
-                <h1 class='ing p-0'>Inglis</h1>
-              </div>
-            </div>
 
-            <div class="col-md-12 col-lg-7">
-              <div id="wrapper" class='pt-5'>
+
+
+              <div id="wrapper" class='pt-5 w-75'>
                 <img src="images/Whitagram-Image (1).jpeg" alt="ol" >
               </div>
-            </div>
 
-          </div>
+
+
         </div>
 
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">ABOUT</a>
+          <a href="#">oliver inglis</a>
+          <a href="#">ruby on rails</a>
+          <a href="#">javascript</a>
+          <a href="#">react</a>
+          <a href="#">html</a>
+        </div>
+
+
+
+
         <div class='navbar fixed-bottom'>
-          <a href="#home" class="a p-0">FULL_STACK WEB DEVELOPER</a>
-          <a href="#contact" class="b p-0">CODE</a>
-          <a href="#news" class="b p-0">ABOUT</a>
+          <a href="#home" class="a p-0">OLIVER INGLIS     //     FULL_STACK WEB DEVELOPER</a>
+          <div>
+          <a href="#news" class="b p-0" onclick="openNav()">ABOUT</a>
+          <a href="code.html" class="b p-0">CODE</a>
+          </div>
         </div>
 
       </div>
@@ -51,5 +60,6 @@
 
     <script src="scripts/random_color.js"></script>
     <script src="scripts/loading.js"></script>
+    <script src="scripts/side_panel.js"></script>
   </body>
 </html>

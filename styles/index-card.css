@@ -1,0 +1,43 @@
+.index-title {
+  font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  margin: 0px;
+  font-size: 21px;
+}
+
+.index-tech {
+  font-family: kormelink ;
+  font-weight: normal;
+  font-size: 20px;
+
+}
+
+.index-body-text {
+  font-family: kormelink ;
+  font-weight: normal;
+}
+
+
+.date {
+ transform: rotate(-90deg);
+ font-family: neue-haas-grotesk-text,sans-serif;
+ font-weight: lighter;
+ font-size: 13px;
+
+}
+
+.code-card {
+  border-bottom: 1px solid black;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.code-card:hover {
+  border-bottom: 1px solid black;
+  padding: 30px;
+  background-color: rgb(0,0,0,0.05);
+
+}

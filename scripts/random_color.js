@@ -5,6 +5,17 @@ getNewRandomColor = () => {
   document.getElementById("body").style.backgroundColor = rand;
   document.getElementById("wrapper").style.backgroundColor = rand;
   document.querySelector('.navbar').style.backgroundColor = rand;
+  document.getElementById("body").style.backgroundColor = rand;
+  document.querySelector(".sidepanel").style.backgroundColor = rand;
 }
 
+window.onload = function() {
+   let colour = document.getElementById("body").style.backgroundColor;
+   localStorage.setItem("usercolour",colour);
+}
+
+
+
 getNewRandomColor();
+
+

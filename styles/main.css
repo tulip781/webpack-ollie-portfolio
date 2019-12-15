@@ -1,7 +1,8 @@
 @import 'load.css';
 @import 'landing.css';
 @import 'nav_bar.css';
-
+@import 'index-card.css';
+@import 'about.css';
 
 
 body {
@@ -11,6 +12,7 @@ body {
   background-size: cover;
   background-color: #ebe2da;
   font-family: neue-haas-grotesk-text,sans-serif;
+
   font-weight: 400;
   font-style: normal;
 }
