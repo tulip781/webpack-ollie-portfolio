@@ -16,6 +16,7 @@
 .index-body-text {
   font-family: kormelink ;
   font-weight: normal;
+  margin-bottom: 0px;
 }
 
 
@@ -23,7 +24,7 @@
  transform: rotate(-90deg);
  font-family: neue-haas-grotesk-text,sans-serif;
  font-weight: lighter;
- font-size: 13px;
+ font-size: 12px;
 
 }
 
@@ -41,3 +42,5 @@
   background-color: rgb(0,0,0,0.05);
 
 }
+
+

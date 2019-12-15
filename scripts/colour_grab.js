@@ -6,4 +6,6 @@ bgColour = () => {
 
 bgColour();
 
+localStorage.setItem('loadedbefore', 'yes');
 
+console.log(localStorage.getItem("loadedbefore"))
