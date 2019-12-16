@@ -1,14 +1,9 @@
-.oli, .ing {
-  font-family: neue-haas-grotesk-text,sans-serif;
-  font-weight: lighter;
-  font-style: normal;
-  font-size: 160px;
-}
-
-img {
-  height: 80vh;
+.landpic {
+  width: 100%;
   filter: grayscale(100%);
   mix-blend-mode: multiply;
+  display:block;
+
 }
 
 .a {
@@ -23,4 +18,75 @@ img {
 
 .land.reveal {
   opacity: 100%;
+}
+
+#wrapper {
+  width:100%;
+  height: 100%; /*container-width*/
+  overflow:hidden; /*hide bounds of image */
+  margin:0;
+
+}
+
+
+
+@media (min-width: 576px) {
+ .title-ting1,  .title-ting2 {
+    font-size: 12vw;
+
+    color: #211E1C;
+  }
+  #wrapper{
+    width: calc(100vh - 81px);
+  }
+}
+
+
+@media (min-width: 768px) {
+ .title-ting1,  .title-ting2 {
+    font-size: 10vw;
+
+    color: #211E1C;
+  }
+  #wrapper{
+    width: calc(100vh - 81px);
+
+  }
+ }
+
+
+@media (min-width: 992px) {
+ .title-ting1,  .title-ting2 {
+    font-size: 13vw;
+    color: #211E1C;
+  }
+  #wrapper{
+    width: calc(100vh - 81px);
+  }
+}
+
+
+@media (min-width: 1200px) {
+ .title-ting1,  .title-ting2 {
+    font-size: 15vw;
+
+    color: #211E1C;
+  }
+  #wrapper{
+    width: calc(100vh - 81px);
+  }
+ }
+
+figcaption {
+  text-align: center;
+    font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+}
+
+
+.boxtop {
+  border-top: 1px solid black;
 }

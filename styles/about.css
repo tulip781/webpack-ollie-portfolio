@@ -13,6 +13,11 @@
   overflow: hidden;
 }
 
+.spacer {
+  height: 30vh;
+  border-right: 1px solid black;
+  margin-right: 10px;
+}
 /* The sidepanel links */
 .sidepanel a {
   padding: 8px 8px 8px 32px;
@@ -29,6 +34,7 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0,0,0,1) !important;
 }
+
 
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
@@ -57,13 +63,16 @@ hr {
 
 
 .oliveringlis {
-  margin-right: 20px;
-font-size: 20px;
+
+  font-size: 20px;
   white-space: nowrap;
+
 }
 
 .abouting {
-  margin-right: 20px;
+  right: 145px;
+  top: 38px;
+   position:  absolute;
   font-size: 20px;
   white-space: nowrap;
   font-family: neue-haas-grotesk-text,sans-serif;
@@ -74,26 +83,31 @@ font-size: 20px;
 }
 
 .ruby {
-  margin-right: 20px;
+
   font-size: 20px;
   white-space: nowrap;
+
 }
 
 .java {
-  margin-right: 20px;
+
   font-size: 20px;
   white-space: nowrap;
+
 }
 
 .react {
-  margin-right: 20px;
+
   font-size: 20px;
   white-space: nowrap;
+
 }
 
 .html2 {
-  margin-right: 20px;
+
   font-size: 20px;
   white-space: nowrap;
+
 }
+
 

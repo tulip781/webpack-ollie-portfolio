@@ -10,7 +10,10 @@ if (!sessionStorage.isVisited) {
 } else {
     window.onload = () => {
     document.querySelector('.load').style.display = 'none';
-    document.querySelector('.land').classList.add('reveal');
+    document.querySelector('.land').style.transition = 'opacity 0s';
+    document.querySelector('.land').style.opacity = '100%';
   }
 }
 
+
+  // transition: opacity 2s;

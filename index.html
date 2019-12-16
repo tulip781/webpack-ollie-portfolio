@@ -7,38 +7,50 @@
     <meta name="author" content="name">
     <meta name="description" content="description here">
     <meta name="keywords" content="keywords,here">
-    <link rel="stylesheet" href="styles/main.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/ksd1jjc.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body id='body'>
 
       <!-- load -->
+      <div height='100vh' class='zoom'>
       <h1 class='load'>Full-Stack Web Development</h1>
-
+      </div>
       <!-- landing page -->
       <div class='land'>
-        <div class="container d-flex align-items-center justify-content-center">
+
+
+        <div class="container-fluid mt-3 d-flex justify-content-center">
           <div id="wrapper" class=''>
-            <img src="images/Whitagram-Image (1).jpeg" alt="ol" >
+            <img src="images/02.jpeg" alt="ol" class='landpic' >
+<!--             <figcaption>Fig.1 - Oliver Inglis</figcaption> -->
           </div>
         </div>
+
         <div id="mySidepanel" class="sidepanel">
-          <div class='d-flex align-items-center'>
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href="#" class='abouting'>ABOUT</a>
-          </div>
           <hr>
           <a href="#" class='oliveringlis'>oliver inglis</a>
+          <div class='spacer'></div>
           <a href="#" class='ruby'>ruby on rails</a>
           <a href="#" class='java'>javascript</a>
           <a href="#" class='react'>react</a>
           <a href="#" class='html2'>html</a>
         </div>
+
+
+        <div class='d-flex flex-column text-center justify-content-between h-100'>
+        <a href="#home" class="text-decoration-none border-top">FULL_STACK WEB DEVELOPER</a>
+        <a href="#news" class="text-decoration-none border-top" onclick="openNav()">ABOUT</a>
+        <a href="code.html" class="text-decoration-none border-top">CODE</a>
+        </div>
+
         <div class='navbar fixed-bottom'>
-          <a href="#home" class="a p-0">OLIVER INGLIS</a>
+          <a href="#home" class="a p-0 shuffle">FULL_STACK WEB DEVELOPER</a>
           <div>
           <a href="#news" class="b p-0" onclick="openNav()">ABOUT</a>
           <a href="code.html" class="b p-0">CODE</a>

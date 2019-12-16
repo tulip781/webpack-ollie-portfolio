@@ -1,4 +1,6 @@
-.index-title {
+div.code-card div h1.index-title a.remove{
+  text-decoration: none;
+  color: black;
   font-family: neue-haas-grotesk-text,sans-serif;
   font-weight: lighter;
   font-style: normal;
@@ -44,3 +46,7 @@
 }
 
 
+a.remove{
+  text-decoration: none !important;
+  color: black !important;
+}
