@@ -10,3 +10,4 @@
   document.getElementById("mySidepanel").style.borderLeft = "0px solid black";
 }
 
+

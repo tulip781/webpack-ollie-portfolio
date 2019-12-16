@@ -1,4 +1,3 @@
-/* The sidepanel menu */
 .sidepanel {
   height: 100vh; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -8,7 +7,6 @@
   right: 0;
   font-weight: 200;
   overflow-x: hidden; /* Disable horizontal scroll */
-/*  padding-top: 60px; *//* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
   border-left: 0px solid black;
   text-align: right;
@@ -31,6 +29,7 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0,0,0,1) !important;
 }
+
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
   text-decoration: none;
@@ -39,11 +38,7 @@ hr {
 
 /* Position and style the close button (top right corner) */
 .sidepanel .closebtn {
-/*  position: absolute;*/
-/*  top: 0;
-  right: 25px;*/
   font-size: 36px;
-/*  margin-left: 50px;*/
 }
 
 /* Style the button that is used to open the sidepanel */
@@ -68,37 +63,37 @@ font-size: 20px;
 }
 
 .abouting {
-    margin-right: 20px;
-font-size: 20px;
+  margin-right: 20px;
+  font-size: 20px;
   white-space: nowrap;
   font-family: neue-haas-grotesk-text,sans-serif;
-    font-weight: lighter;
-    font-style: normal;
-    margin: 0px;
-    font-size: 21px;
+  font-weight: lighter;
+  font-style: normal;
+  margin: 0px;
+  font-size: 21px;
 }
 
 .ruby {
-    margin-right: 20px;
-font-size: 20px;
+  margin-right: 20px;
+  font-size: 20px;
   white-space: nowrap;
 }
 
 .java {
-    margin-right: 20px;
-font-size: 20px;
+  margin-right: 20px;
+  font-size: 20px;
   white-space: nowrap;
 }
 
 .react {
-    margin-right: 20px;
-font-size: 20px;
+  margin-right: 20px;
+  font-size: 20px;
   white-space: nowrap;
 }
 
 .html2 {
-    margin-right: 20px;
-font-size: 20px;
+  margin-right: 20px;
+  font-size: 20px;
   white-space: nowrap;
 }
 
