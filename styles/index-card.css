@@ -1,12 +1,4 @@
-div.code-card div h1.index-title a.remove{
-  text-decoration: none;
-  color: black;
-  font-family: neue-haas-grotesk-text,sans-serif;
-  font-weight: lighter;
-  font-style: normal;
-  margin: 0px;
-  font-size: 21px;
-}
+
 
 .index-tech {
   font-family: kormelink ;
@@ -42,11 +34,7 @@ div.code-card div h1.index-title a.remove{
   border-bottom: 1px solid black;
   padding: 30px;
   background-color: rgb(0,0,0,0.05);
-
 }
 
 
-a.remove{
-  text-decoration: none !important;
-  color: black !important;
-}
+

@@ -1,0 +1,29 @@
+/*Homepage Reveal Transition*/
+.land {
+  opacity: 0%;
+  transition: opacity 2s;
+  transition-timing-function: ease;
+  height: 100%;
+}
+
+.land.reveal {
+  opacity: 100%;
+}
+
+/*Image Div On Homepage*/
+
+#homepage-image-div {
+  margin:0 auto;
+  max-width:400px;
+  background:url(../images/o.jpeg) 50% 50% no-repeat;
+  background-size:contain;
+  overflow: hidden;
+  mix-blend-mode: multiply;
+}
+
+.navbar.reveal {
+  opacity: 100%;
+  transition: opacity 1s;
+  transition-timing-function: ease;
+}
+

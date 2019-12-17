@@ -1,0 +1,34 @@
+.load {
+  opacity: 0%;
+  font-size: 78.5px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: kormelink ;
+  font-weight: normal;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: /*translate(-50%, -50%)*/ scale(1);
+  z-index: 2;
+  transition: opacity 1s;
+  transition-timing-function: linear;
+  animation-name: zoom;
+  animation-duration: 3s;
+
+}
+
+.load.hidden {
+  opacity: 0%;
+}
+
+
+@keyframes zoom {
+  from {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+}

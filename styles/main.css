@@ -1,17 +1,16 @@
-@import 'load.css';
-@import 'landing.css';
-@import 'nav_bar.css';
-@import 'about.css';
+@import 'loading-page.css';
+@import 'homepage.css';
 @import 'show_card.css';
 @import 'index-card.css';
+@import 'nav-bar.css';
 
-
-body {
+html, body {
   margin: 0;
   background-size: cover;
   background-color: #ebe2da;
   font-family: neue-haas-grotesk-text,sans-serif;
   font-weight: 400;
   font-style: normal;
+  height: 100%;
 }
 
