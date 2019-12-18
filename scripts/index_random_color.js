@@ -1,6 +1,7 @@
 getNewRandomColor = () => {
-  const myArray = ['#ebe2da', '#dddddd', '#dbc8bc', '#958e7d', '#cf9c82', '#D3D3D3'];
+  const myArray = ['#ebe2da', '#dddddd', '#dbc8bc', '#958e7d', '#cf9c82', '#D3D3D3', '#227B58', '#5098A3'];
   let rand = myArray[Math.floor(Math.random() * myArray.length)];
+  html
   document.getElementById("body").style.backgroundColor = rand;
   document.querySelector('.navbar').style.backgroundColor = rand;
   let colour = document.getElementById("body").style.backgroundColor;
