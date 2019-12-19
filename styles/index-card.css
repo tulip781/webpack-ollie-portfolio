@@ -1,25 +1,27 @@
-
-
 .index-tech {
   font-family: kormelink ;
   font-weight: normal;
   font-size: 20px;
-
 }
 
 .index-body-text {
   font-family: kormelink ;
   font-weight: normal;
   margin-bottom: 0px;
+  text-align: justify;
 }
 
+.main-card-text {
+  padding-right: 60px;
+}
 
 .date {
- transform: rotate(-90deg);
- font-family: neue-haas-grotesk-text,sans-serif;
- font-weight: lighter;
- font-size: 12px;
-
+  transform: rotate(-90deg);
+  font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  position: absolute;
+  right: 23px;
 }
 
 .code-card {
@@ -28,13 +30,67 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: auto;
 }
+
+
+@include media-breakpoint-up(sm) {
+  .code-card {
+    border-bottom: 1px solid black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    max-height: 208px;
+  }
+ }
+
+@include media-breakpoint-up(md) {
+  .code-card {
+    border-bottom: 1px solid black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    max-height: 136px;
+  }
+ }
+
+@include media-breakpoint-up(lg) {
+  .code-card {
+    border-bottom: 1px solid black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    max-height: 136px;
+  }
+ }
+
+@include media-breakpoint-up(xl) {
+  .code-card {
+    border-bottom: 1px solid black;
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   overflow: auto;
+    max-height: 112px;
+  }
+ }
 
 .code-card:hover {
   border-bottom: 1px solid black;
   padding: 30px;
   background-color: rgb(0,0,0,0.05);
 }
+
+
+
+
 
 
 

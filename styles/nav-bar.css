@@ -9,6 +9,7 @@
   z-index: 30;
   transition: opacity 1s;
   transition-timing-function: ease;
+  padding: 8px 30px;
 }
 
 /* Style the links inside the navigation bar */
@@ -29,6 +30,13 @@
 /* Hide the link that should open and close the navbar on small screens */
 .navbar .icon {
   display: none;
+}
+
+
+.code-navbar {
+  position: absolute;
+  bottom: 8px;
+  right: 102px;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */

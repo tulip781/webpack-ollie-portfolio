@@ -13,12 +13,15 @@
 /*Image Div On Homepage*/
 
 #homepage-image-div {
+  padding: 300px;
   margin:0 auto;
-  max-width:400px;
+  max-width:500px;
   background:url(../images/o.jpeg) 50% 50% no-repeat;
   background-size:contain;
   overflow: hidden;
   mix-blend-mode: multiply;
+
+
 }
 
 .navbar.reveal {
