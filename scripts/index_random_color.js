@@ -1,5 +1,5 @@
 getNewRandomColor = () => {
-  const myArray = ['#ebe2da', '#dddddd', '#dbc8bc', '#958e7d', '#cf9c82', '#D3D3D3', '96af76'];
+  const myArray = ['#ebe2da', '#dddddd', '#dbc8bc', '#958e7d', '#cf9c82', '#D3D3D3', '#96af76', '#D7DDFF', '#69A2B0'];
   let rand = myArray[Math.floor(Math.random() * myArray.length)];
   document.getElementById("body").style.backgroundColor = rand;
   document.querySelector('.navbar').style.backgroundColor = rand;
@@ -11,6 +11,7 @@ console.log('hello')
 if (!sessionStorage.isVisited) {
   getNewRandomColor();
 } else {
+    if (document.getElementById("about-body")) document.getElementById("about-body").style.backgroundColor = localStorage.getItem("usercolour");
     document.getElementById("body").style.backgroundColor = localStorage.getItem("usercolour");
     document.querySelector('.navbar').style.backgroundColor = localStorage.getItem("usercolour");
 }

@@ -13,9 +13,8 @@
 /*Image Div On Homepage*/
 
 #homepage-image-div {
-  padding: 300px;
   margin:0 auto;
-  max-width:500px;
+  width: 50vh;
   background:url(../images/o.jpeg) 50% 50% no-repeat;
   background-size:contain;
   overflow: hidden;
@@ -29,4 +28,35 @@
   transition: opacity 1s;
   transition-timing-function: ease;
 }
+
+@media only screen and (min-width: 375px) {
+  #homepage-image-div {
+    width: 90vw;
+  }
+
+@media only screen and (min-width: 600px) {
+  #homepage-image-div {
+    width: 50vh;
+  }
+
+ }
+
+@media only screen and (min-width: 768px) {
+ #homepage-image-div {
+  width: 50vh;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #homepage-image-div {
+    width: 50vh;
+  }
+ }
+
+@media only screen and (min-width: 1200px) {
+  #homepage-image-div {
+    width: 50vh;
+  }
+ }
+
 
