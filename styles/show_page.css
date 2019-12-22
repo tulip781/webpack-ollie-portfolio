@@ -1,0 +1,22 @@
+.show-page-text-left {
+  width: 50vw;
+  padding: 30px;
+}
+
+
+.show-page-images-right {
+  padding: 30px;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-image {
+  width: 100%;
+}
+
+.show-page-wrapper {
+  display: flex;
+  height: 100vh;
+}
+

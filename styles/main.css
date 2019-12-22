@@ -4,6 +4,7 @@
 @import 'index-card.css';
 @import 'nav-bar.css';
 @import 'about.css';
+@import 'show_page.css';
 
 html, body {
   margin: 0;
