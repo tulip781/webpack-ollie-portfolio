@@ -7,8 +7,12 @@
 .show-page-images-right {
   padding: 30px;
   width: 50vw;
+  display: flex;
   align-items: center;
   justify-content: center;
+
+  text-align: center;
+  border-left: 1px solid black;
 }
 
 .show-image {
@@ -20,3 +24,12 @@
   height: 100vh;
 }
 
+figcaption {
+  font-family: kormelink;
+}
+
+figcaption h4{
+  font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+}

@@ -123,8 +123,15 @@
  }
 
 
+a h2.index-tech {
+  text-decoration: none;
+  color: black;
+}
 
-
+a h2.index-tech:hover {
+  text-decoration: none;
+  color: black;
+}
 
 
 
