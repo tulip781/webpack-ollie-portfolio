@@ -1,0 +1,25 @@
+.show-page-title {
+  white-space: nowrap;
+  font-size:2.3rem;
+}
+h2.show-tech {
+  font-family: kormelink !important;
+  font-weight: normal;
+  font-size: 20px;
+}
+.show-body-text {
+  font-family: kormelink ;
+  font-weight: normal;
+  text-align: justify;
+}
+
+
+.date-show {
+  transform: rotate(-90deg);
+  font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  position: absolute;
+  right: 52vw;
+  top: 45vh;
+}
