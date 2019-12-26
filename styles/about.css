@@ -4,8 +4,9 @@
     left: 50%;
     transform: translate(-50%, -51%) scale(.6);
     font-weight: lighter;
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-align: justify;
+/*    font-family: kormelink;*/
 
 }
 
