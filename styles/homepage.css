@@ -1,5 +1,6 @@
 /*Homepage Reveal Transition*/
 .land {
+  -webkit-opacity: 0;
   opacity: 0%;
   transition: opacity 2s;
   transition-timing-function: ease;
@@ -8,6 +9,7 @@
 
 .land.reveal {
   opacity: 100%;
+  -webkit-opacity: 1;
 }
 
 /*Image Div On Homepage*/
@@ -27,6 +29,7 @@
 
 #homepage-image-div.reveal {
   opacity: 100%;
+  -webkit-opacity: 1;
   margin:0 auto;
   width: 50vh;
   background:url(../images/o.jpeg) 50% 50% no-repeat;
@@ -38,7 +41,8 @@
 
 
 .navbar.reveal {
-  opacity: 100%;
+  -webkit-opacity: 1;
+  opacity: 100% !important;
   transition: opacity 1s;
   transition-timing-function: ease;
 }

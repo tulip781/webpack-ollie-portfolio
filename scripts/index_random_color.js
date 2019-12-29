@@ -7,7 +7,6 @@ getNewRandomColor = () => {
   localStorage.setItem("usercolour",colour);
 }
 
-console.log('hello')
 if (!sessionStorage.isVisited) {
   getNewRandomColor();
 } else {

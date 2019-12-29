@@ -1,5 +1,6 @@
 .load {
-  opacity: 0%;
+  opacity: 100%;
+  -webkit-opacity: 1;
   font-size: 78.5px;
   margin: 0;
   padding: 0;
@@ -19,6 +20,7 @@
 }
 
 .load.hidden {
+  -webkit-opacity: 0;
   opacity: 0%;
 }
 
