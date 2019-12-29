@@ -1,5 +1,6 @@
 if (!sessionStorage.isVisited) {
   document.querySelector('.load').style.opacity = '100%';
+  console.log('helllo')
   sessionStorage.setItem('isVisited', 'true');
   setTimeout(fade = () => {
     document.querySelector('.load').style.opacity = '0%';
