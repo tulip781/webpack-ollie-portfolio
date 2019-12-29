@@ -1,4 +1,5 @@
 if (!sessionStorage.isVisited) {
+  document.querySelector('.navbar').classList.add('hidden');
   document.querySelector('.load').style.opacity = '100%';
   document.querySelector('.load').style.opacity = '-webkit-opacity: 1';
   sessionStorage.setItem('isVisited', 'true');
