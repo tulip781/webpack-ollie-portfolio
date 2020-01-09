@@ -7,6 +7,7 @@
 @import 'show_page.css';
 @import 'show_page_text_styles.css';
 @import 'back-to-projects.css';
+@import 'modal-video.min.css';
 
 html, body {
   margin: 0;
