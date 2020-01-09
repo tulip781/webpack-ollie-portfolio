@@ -5,3 +5,14 @@
   font-weight: lighter;
   font-size: 12px;
 }
+
+.back-to-projects:hover{
+ text-decoration: underline;
+}
+
+
+.project-image-description {
+  font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+}
