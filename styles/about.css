@@ -9,3 +9,7 @@
 /*    font-family: kormelink;*/
 }
 
+.github-decoration {
+  text-decoration: underline;
+  text-align: center;
+}
