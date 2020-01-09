@@ -1,5 +1,8 @@
 if (!sessionStorage.isVisited) {
   document.querySelector('.navbar').classList.add('hidden');
+  console.log('is this part working')
+  document.getElementById('myNavbar').style.opacity = '0%';
+    document.getElementById('myNavbar').style.opacity = '-webkit-opacity: 0';
   document.querySelector('.navbar').style.opacity = '0%';
   document.querySelector('.navbar').style.opacity = '-webkit-opacity: 0';
   document.querySelector('.load').style.opacity = '100%';
@@ -28,6 +31,7 @@ if (!sessionStorage.isVisited) {
     document.querySelector('.navbar').style.transition = 'opacity 0s';
     document.querySelector('.navbar').style.opacity = '100%';
     document.querySelector('.navbar').style.opacity = '-webkit-opacity: 1';
+    document.querySelector('.navbar').classList.remove('hidden');
   }
 }
 
