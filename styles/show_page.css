@@ -18,7 +18,21 @@
 
 .show-image {
   width: 100%;
+  -webkit-opacity: 0;
+  opacity: 0%;
+
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
 }
+
+.show-image.loader {
+  opacity: 1;
+}
+
+
 
 .show-page-wrapper {
   display: flex;
