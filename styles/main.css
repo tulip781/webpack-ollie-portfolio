@@ -7,7 +7,7 @@
 @import 'show_page.css';
 @import 'show_page_text_styles.css';
 @import 'back-to-projects.css';
-@import 'mediabox.css';
+@import 'modal.css';
 
 html, body {
   margin: 0;
