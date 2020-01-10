@@ -16,6 +16,7 @@
   </head>
   <body id='about-body'>
 
+  <a href="https://vimeo.com/71495477" class="mediabox">Vimeo</a>
 
   <p class='center-text'>oliver inglis is a london based full stack web developer. working primarily in ruby on rails, es6 javascript, react, html, css, sql, git, github and heroku. <a href="https://github.com/oginglis" class='github-decoration'>github >> oginglis</a></p>
 
@@ -30,4 +31,10 @@
   </body>
   <script src="scripts/code_page_color.js"></script>
   <script src="scripts/nav_bar.js"></script>
+  <script src="scripts/mediabox.js"></script>
+  <script>
+    MediaBox('.mediabox');
+    MediaBox('.mediabox', { rel: '0' }); // Additional options
+    if (document.querySelector('.mediabox-wrap')) console.log('yes');
+</script>
 </html>
