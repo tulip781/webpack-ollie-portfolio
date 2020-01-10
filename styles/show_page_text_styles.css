@@ -14,12 +14,5 @@ h2.show-tech {
 }
 
 
-.date-show {
-  transform: rotate(-90deg);
-  font-family: neue-haas-grotesk-text,sans-serif;
-  font-weight: lighter;
-  font-size: 12px;
-  position: absolute;
-  right: 51vw;
-  top: 45vh;
-}
+
+
