@@ -15,7 +15,18 @@
   font-family: neue-haas-grotesk-text,sans-serif;
   font-weight: lighter;
   font-size: 12px;
+  -webkit-opacity: 0;
+  opacity: 0%;
 
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  -o-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+}
+
+.project-image-description.loader {
+  opacity: 1;
 }
 
 .project-image-description:hover {

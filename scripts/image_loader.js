@@ -1,3 +1,10 @@
+const action = () => {
+  imageToLoad.classList.add('loader');
+  textBeneath.classList.add('loader');
+}
+
 const imageToLoad = document.querySelector(".show-image");
-imageToLoad.addEventListener("load", imageToLoad.classList.add('loader'));
-console.log('this is working');
+const textBeneath = document.querySelector(".project-image-description");
+imageToLoad.addEventListener("load", action());
+console.log('the new funciton is working');
+
