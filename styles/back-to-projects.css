@@ -3,7 +3,7 @@
   .back-to-projects {
     right: 2%;
     position: absolute;
-    bottom: 16%;
+    top: 74px;
     font-family: neue-haas-grotesk-text,sans-serif;
     font-weight: lighter;
     font-size: 12px;

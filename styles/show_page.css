@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
   .show-page-text-left {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     padding: 30px 50px 30px 30px;
     overflow: auto;
     /* border-bottom: 1px solid black; */
@@ -12,6 +12,7 @@
   .show-page-images-right {
     padding: 30px;
     width: 100vw;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +40,7 @@
   .show-page-wrapper {
     display: flex;
     flex-direction: column-reverse;
-    height: 100vh;
+    height: auto;
     align-items: center;
   }
 
