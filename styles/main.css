@@ -8,6 +8,7 @@
 @import 'show_page_text_styles.css';
 @import 'back-to-projects.css';
 @import 'modal.css';
+@import 'app_type.css';
 
 html, body {
   margin: 0;
