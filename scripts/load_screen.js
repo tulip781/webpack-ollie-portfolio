@@ -1,6 +1,5 @@
 if (!sessionStorage.isVisited) {
   document.querySelector('.navbar').classList.add('hidden');
-  console.log('is this part working')
   document.getElementById('myNavbar').style.opacity = '0%';
     document.getElementById('myNavbar').style.opacity = '-webkit-opacity: 0';
   document.querySelector('.navbar').style.opacity = '0%';
