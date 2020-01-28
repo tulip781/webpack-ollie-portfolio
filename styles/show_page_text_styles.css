@@ -1,6 +1,7 @@
 .show-page-title {
   white-space: nowrap;
   font-size:2.3rem;
+  overflow: hidden;
 }
 h2.show-tech {
   font-family: kormelink !important;
