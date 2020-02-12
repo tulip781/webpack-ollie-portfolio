@@ -9,6 +9,7 @@
 @import 'back-to-projects.css';
 @import 'modal.css';
 @import 'app_type.css';
+@import 'land_bootstrap_avoid.css';
 
 html, body {
   margin: 0;
