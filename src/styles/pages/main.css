@@ -1,0 +1,29 @@
+@import './home/homepage.css';
+@import './project/project.css';
+@import './about/about.css';
+@import './projects/projects.css';
+@import './navbar/nav_bar.css';
+@import './project/modal.css';
+
+html, body {
+  margin: 0;
+  background-size: cover;
+  background-color: #ebe2da;
+  font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, .homepage-body {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #212529;
+}

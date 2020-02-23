@@ -1,0 +1,14 @@
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%) scale(.6);
+    font-weight: lighter;
+    font-size: 2.9vh;
+    text-align: justify;
+}
+
+.github-decoration {
+  text-decoration: underline;
+  text-align: center;
+}
