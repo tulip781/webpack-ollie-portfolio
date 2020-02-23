@@ -24,22 +24,26 @@ revealImageAndNav = () => {
   navbar.classList.add('active');
 }
 
-window.onload = start = () => {
-  if (!sessionStorage.isVisited) {
-    getNewRandomColor();
-    splashText.classList.add('active');
-    setTimeout(hideSplashText, 2000);
-    setTimeout(revealImageAndNav, 2700);
-    sessionStorage.setItem('isVisited', true)
-  } else {
-    body.style.backgroundColor = localStorage.getItem("usercolour");
-    navbar.style.backgroundColor = localStorage.getItem("usercolour");
-    image.style.transition = 'opacity 0s';
-    navbar.style.transition = 'opacity 0s';
-    image.classList.add('active');
-    navbar.classList.add('active');
-  }
+revealSplash = () => {
+  splashText.classList.add('active');
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    if (!sessionStorage.isVisited) {
+      getNewRandomColor();
+      setTimeout(revealSplash, 100);
+      setTimeout(hideSplashText, 2000);
+      setTimeout(revealImageAndNav, 2700);
+      sessionStorage.setItem('isVisited', true)
+    } else {
+      body.style.backgroundColor = localStorage.getItem("usercolour");
+      navbar.style.backgroundColor = localStorage.getItem("usercolour");
+      image.style.transition = 'opacity 0s';
+      navbar.style.transition = 'opacity 0s';
+      image.classList.add('active');
+      navbar.classList.add('active');
+    }
+});
 
 shuffle.addEventListener('click', (event) => {
   getNewRandomColor()
