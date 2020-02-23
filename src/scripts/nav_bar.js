@@ -1,4 +1,4 @@
-myFunction = () => {
+const myFunction = () => {
   const x = document.getElementById("myNavbar");
   if (x.className === "navbar active") {
     x.className += " responsive";
@@ -7,3 +7,4 @@ myFunction = () => {
   }
 }
 
+export default myFunction;
