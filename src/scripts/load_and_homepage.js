@@ -3,7 +3,7 @@ const homepage = () => {
   const navbar = document.querySelector('.navbar');
   const splashText = document.querySelector('.load');
   const image = document.querySelector('.homepage-image-div')
-  const body = document.getElementById("body")
+  const body = document.querySelector("body")
 
   const getNewRandomColor = () => {
     const myArray = ['#ebe2da', '#dddddd', '#dbc8bc', '#958e7d', '#D3D3D3', "#ECE5BD"];
